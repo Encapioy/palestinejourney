@@ -697,16 +697,6 @@ document.addEventListener("DOMContentLoaded", () => {
             scrub: true,
         }
     })
-
-    gsap.to(".story-9-let-10", {
-        y: '-70vh', rotateY: '118deg', rotateZ: '180deg',
-        scrollTrigger: {
-            trigger: '.story-9-1',
-            start: '45% center',
-            end: 'bottom center',
-            scrub: true,
-        }
-    })
     // STORY 9 END //
 
     // STORY 11 START //
@@ -1141,26 +1131,6 @@ document.addEventListener("DOMContentLoaded", () => {
         scrollTrigger: {
             trigger: '.story-13-1',
             start: '50% bottom',
-            end: '40% center',
-            scrub: true,
-        }
-    })
-
-    gsap.from(".story-13-text-6", {
-        x: -100,
-        scrollTrigger: {
-            trigger: '.story-13-1',
-            start: '55% bottom',
-            end: '35% center',
-            scrub: true,
-        }
-    })
-
-    gsap.from(".story-13-text-7", {
-        x: -100,
-        scrollTrigger: {
-            trigger: '.story-13-1',
-            start: '60% bottom',
             end: '40% center',
             scrub: true,
         }
